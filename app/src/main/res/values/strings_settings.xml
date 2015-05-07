@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dialog_instance_name_title">Set Instance Name</string>
+    <string name="dialog_instance_name_message">Enter the name of your instance</string>
+    <string name="dialog_instance_button_positive">Store and Connect</string>
+    <string name="dialog_instance_button_negative">Use Demo</string>
+
+
+
+<!-- DIALOGS -->
+    <!-- Wifi Check Startup Dialog  -->
+    <string name="dialog_wifi_title">Enable WiFi</string>
+    <string name="dialog_wifi_message">Do you want to enable WiFi? It is recommended to only use the application when connected to WiFi.</string>
+    <string name="dialog_wifi_yes">Yes</string>
+    <string name="dialog_wifi_no">No</string>
+
+</resources>

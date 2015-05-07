@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer_headers">
+        <item>Modules</item>
+        <item>Settings</item>
+        <item>User Options</item>
+    </string-array>
+
+    <string-array name="modules_array">
+        <item>Home</item>
+        <item>Approval</item>
+        <item>Catalog</item>
+        <item>Notifications</item>
+        <item>Email</item>
+        <item>Incident</item>
+        <item>Request</item>
+    </string-array>
+
+    <string-array name="settings_array">
+        <item>Instance</item>
+        <item>Appearance</item>
+        <item>Notification</item>
+    </string-array>
+
+    <string-array name="user_options_array">
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

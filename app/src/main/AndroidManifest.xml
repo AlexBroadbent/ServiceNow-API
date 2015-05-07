@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abroadbent.servicenowapi" >
+
+    <!-- Permissions to use Internet Access and Change WiFi State -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".controller.activity.StartActivity"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.activity.LoginActivity"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name_login" >
+        </activity>
+        <activity
+            android:name=".controller.activity.HomeActivity"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name_home" >
+        </activity>
+        <activity
+            android:name=".controller.activity.SettingsActivity"
+            android:icon="@drawable/ic_action_settings_dark"
+            android:label="@string/app_name_setting" >
+        </activity>
+        <activity
+            android:name=".controller.fragment.ApprovalFragment"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name_approval"
+            android:parentActivityName=".controller.activity.HomeActivity" >
+        </activity>
+        <activity
+            android:name=".controller.fragment.EmailFragment"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name_email"
+            android:parentActivityName=".controller.activity.HomeActivity" >
+        </activity>
+        <activity
+            android:name=".controller.fragment.IncidentFragment"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name_incident"
+            android:parentActivityName=".controller.activity.HomeActivity" >
+        </activity>
+        <activity
+            android:name=".controller.fragment.RequestFragment"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name_request"
+            android:parentActivityName=".controller.activity.HomeActivity" >
+        </activity>
+    </application>
+
+</manifest>

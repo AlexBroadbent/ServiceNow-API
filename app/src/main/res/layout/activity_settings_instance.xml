@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layInstance"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/setting_instance_name"
+        android:id="@+id/lblInstanceName"
+        android:layout_marginLeft="15dp"
+        android:labelFor="@+id/txtInstanceName"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/txtInstanceName"
+        android:inputType="text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/setting_instance_or"
+        android:id="@+id/lblOr"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/setting_instance_url"
+        android:id="@+id/lblInstanceURL"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:labelFor="@+id/txtInstanceURL" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/txtInstanceURL"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:inputType="textWebEmailAddress|textEmailAddress|textUri"
+        android:imeOptions="flagNoEnterAction"
+        android:layout_gravity="top" />
+
+</LinearLayout>

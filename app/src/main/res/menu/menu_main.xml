@@ -1,0 +1,39 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_action_refresh_dark"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings_dark"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_stats"
+        android:title="@string/action_show_stats"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="400"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        android:orderInCategory="500"
+        app:showAsAction="never" />
+
+</menu>
